@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {num} from "./02/02";
+
+let a =  num + 1
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
